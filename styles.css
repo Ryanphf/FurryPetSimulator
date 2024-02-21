@@ -1,0 +1,25 @@
+.money-counter {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+.pet-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pet {
+    border: 2px solid #333;
+    border-radius: 5px; /* Adjusted border radius to make pets smaller */
+    padding: 5px; /* Adjusted padding to make pets smaller */
+    margin: 5px; /* Adjusted margin to make pets smaller */
+}
+
+.pet.warning {
+    border: 3px solid red;
+}
